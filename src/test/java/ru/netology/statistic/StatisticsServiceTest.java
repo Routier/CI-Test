@@ -19,7 +19,7 @@ public class StatisticsServiceTest {
     }
 
     @Test
-    void  findIfCurrentLessThenIncome(){
+    void findIfCurrentLessThenIncome() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {1, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
